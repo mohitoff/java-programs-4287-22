@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Programs</title>
+    <style>
+        /* Overall Page Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+            background-color: #2d2e4e;  /* Deep navy background */
+            color: #f2f2f2;             /* Light text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Heading Styling */
+        h1 {
+            font-size: 3em;
+            color: #ffc857;   /* Warm yellow for heading contrast */
+            margin: 30px 0 10px;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Container for Button Layout */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            padding: 20px;
+            max-width: 1200px;
+            background: #3e3f60;  /* Subtle background for button section */
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+            margin-bottom: 30px;
+        }
+
+        /* Button Styling */
+        .btn {
+            padding: 12px 25px;
+            background-color: #61c0bf; /* Fresh turquoise for buttons */
+            color: #ffffff;
+            border-radius: 50px;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid #ffc857;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-size: 1.1em;
+        }
+
+        /* Hover Effect */
+        .btn:hover {
+            background-color: #ffc857; /* Swap color on hover */
+            color: #2d2e4e;            /* Dark text on hover */
+            transform: scale(1.05);    /* Slight scaling */
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+        }
+
+        /* Java Description Styling */
+        .description {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1em;
+            background-color: #3e3f60; /* Matching background for continuity */
+            border-radius: 10px;
+            color: #e3e3e3;            /* Soft gray text color */
+            line-height: 1.6;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Header -->
+    <h1>Java Programs</h1>
+
+    <!-- Button Section -->
+    <div class="container">
+        <a class="btn" href="2D Arrays.html">2D Arrays</a>
+        <a class="btn" href="Applets.html">Applets</a>
+        <a class="btn" href="Basic Programming Constructs.html">Basic Programming</a>
+        <a class="btn" href="Data Conversion.html">Data Conversion</a>
+        <a class="btn" href="Delegation Event Model.html">Event Model</a>
+        <a class="btn" href="Exception Handling.html">Exception Handling</a>
+        <a class="btn" href="Functions.html">Functions</a>
+        <a class="btn" href="Graphical User Interface (AWT).html">GUI (AWT)</a>
+        <a class="btn" href="Inheritance.html">Inheritance</a>
+        <a class="btn" href="Input Output.html">Input/Output</a>
+        <a class="btn" href="Interfaces.html">Interfaces</a>
+        <a class="btn" href="Java Database Connectivity.html">JDBC</a>
+        <a class="btn" href="Multithreading.html">Multithreading</a>
+        <a class="btn" href="Object Oriented Programming.html">OOP</a>
+        <a class="btn" href="Packages.html">Packages</a>
+        <a class="btn" href="Single Dimension Arrays.html">1D Arrays</a>
+        <a class="btn" href="Strings.html">Strings</a>
+    </div>
+
+    <!-- Java Description Section -->
+    <div class="description">
+        <p>Java is a powerful, versatile programming language used for a wide range of applications, from web development to Android apps and enterprise software. Known for its object-oriented structure, Java allows developers to write code that can be executed on various platforms without modification. This language is also notable for its security features and robust community support, making it a popular choice for both beginners and seasoned programmers. With consistent updates and improvements, Java continues to be relevant and widely used in the tech industry.</p>
+    </div>
+</body>
+</html>

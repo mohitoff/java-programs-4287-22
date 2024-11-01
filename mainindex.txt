@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Programs</title>
+    <style>
+        /* Background and Container Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;  /* Light blue-gray background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        
+        .container {
+            text-align: center;
+            width: 80%;
+            padding: 20px;
+            background-color: #ffffff; /* White container background */
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #004d7a; /* Deep teal */
+            margin-bottom: 20px;
+        }
+
+        /* Button Grid Layout */
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            justify-items: center;
+        }
+
+        /* Button Styling */
+        .btn {
+            width: 200px;
+            padding: 10px;
+            background-color: #4caf50; /* Fresh green */
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            color: #ffffff;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from links */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-block; /* Ensure the link behaves like a block */
+        }
+
+        .btn:hover {
+            background-color: #388e3c; /* Darker green on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .button-container {
+                grid-template-columns: repeat(2, 1fr); /* 2 buttons per row on smaller screens */
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Java Programs</h1>
+        <div class="button-container">
+            <a class="btn" href="2D Arrays.html">2D Arrays</a>
+            <a class="btn" href="Applets.html">Applets</a>
+            <a class="btn" href="Basic Programming Constructs.html">Basic Programming Constructs</a>
+            <a class="btn" href="Data Conversion.html">Data Conversion</a>
+            <a class="btn" href="Delegation Event Model.html">Delegation Event Model</a>
+            <a class="btn" href="Exception Handling.html">Exception Handling</a>
+            <a class="btn" href="Functions.html">Functions</a>
+            <a class="btn" href="Graphical User Interface (AWT).html">Graphical User Interface (AWT)</a>
+            <a class="btn" href="Inheritance.html">Inheritance</a>
+            <a class="btn" href="Input Output.html">Input/Output</a>
+            <a class="btn" href="Interfaces.html">Interfaces</a>
+            <a class="btn" href="Java Database Connectivity.html">Java Database Connectivity</a>
+            <a class="btn" href="Multithreading.html">Multithreading</a>
+            <a class="btn" href="Object Oriented Programming.html">Object Oriented Programming</a>
+            <a class="btn" href="Packages.html">Packages</a>
+            <a class="btn" href="Single Dimension Arrays.html">Single Dimension Arrays</a>
+            <a class="btn" href="Strings.html">Strings</a>
+        </div>
+    </div>
+</body>
+</html>
